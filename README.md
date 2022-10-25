@@ -4,16 +4,28 @@ This repository contains a set of experiments using CNN arquitectures to predict
 
 ![Sample images](https://github.com/victorcaquilpan/CNN_evaluation/blob/main/images/Sample%20images.PNG)
 
-A standard setting was utilized to preprocess images and it was showed below. 
+A standard setting was utilized to preprocess images and it was showed below. For running each Jupyter notebook, Google Colab was used taking the chance to use GPU. 
 
 ```
-# Transformation
+# Transformations applied
 train_transform = transforms.Compose([
             transforms.Resize(256),
             transforms.RandomHorizontalFlip(),
             transforms.CenterCrop(224),
             transforms.ToTensor(),
             transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
+```
+
+```
+# Dataset size
+train_size = 4590
+val_size = 270
+test_size = 540
+
+# General setup
+loss_function = cross-entropy
+batch_size = 12
+number_epochs = 20
 ```
 
 A total of six different arquitectures were tested, which are described in the next table.
