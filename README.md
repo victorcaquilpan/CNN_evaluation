@@ -4,7 +4,18 @@ This repository contains a set of experiments using CNN arquitectures to predict
 
 ![Sample images](https://github.com/victorcaquilpan/CNN_evaluation/blob/main/images/Sample%20images.PNG)
 
-Six different arquitectures were tested, which are described in the next table.
+A standard setting was utilized to preprocess images and it was showed below. 
+
+```
+train_transform = transforms.Compose([
+            transforms.Resize(256),
+            transforms.RandomHorizontalFlip(),
+            transforms.CenterCrop(224),
+            transforms.ToTensor(),
+            transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
+```
+
+A total of six different arquitectures were tested, which are described in the next table.
 
 | Model         | Depth         | Number of parameters | G-Flops (efficiency) | Best accuracy | Best accuracy setting | Jupyter link |
 | ------------- | ------------- |--------------------- |----------------|-----------------|-----------------------|--------------|          
