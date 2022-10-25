@@ -33,7 +33,7 @@ A total of six different arquitectures were tested combined with different setti
 | Model         | Depth          | G-Flops (efficiency) | Best accuracy | Best accuracy setting | Jupyter link |
 | ------------- | ------------- |----------------|-----------------|-----------------------|--------------|          
 | Basic CNN     | 5                                |    3.07          |     0.4389          |Optimizer: SGD + Lr: 0.001|[Basic CNN](https://github.com/victorcaquilpan/CNN_evaluation/blob/main/code/basic_cnn.ipynb)
-| AlexNet       | 8                                   |  1.39            | 0.7944          |Optimizer: SGD + Lr: 0.001  ||
+| AlexNet       | 8                                   |  1.39            | 0.7944          |Optimizer: SGD + Lr: 0.001 + pretrained | [AlexNet](https://github.com/victorcaquilpan/CNN_evaluation/blob/main/code/alexnet.ipynb)|
 | GoogleNet     | 22                                |              |               |||
 | Resnet34      | 35                                 |    24.41        |               |||
 | Resnet151     | 152                                |              |  |||
