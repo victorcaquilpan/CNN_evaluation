@@ -18,11 +18,11 @@ train_transform = transforms.Compose([
 
 A total of six different arquitectures were tested, which are described in the next table.
 
-| Model         | Depth         | Number of parameters | G-Flops (efficiency) | Best accuracy | Best accuracy setting | Jupyter link |
-| ------------- | ------------- |--------------------- |----------------|-----------------|-----------------------|--------------|          
-| Basic CNN     | 5             |                      |    3.07          |     0.4389          ||[Basic CNN](https://github.com/victorcaquilpan/CNN_evaluation/blob/main/code/basic_cnn.ipynb)|
-| AlexNet       | 8             |                      |  1.39            |               |||
-| GoogleNet     | 22            |                      |              |               |||
-| Resnet34      | 35            |                      |    24.41        |               |||
-| Resnet151     | 152           |                      |              |  |||
-| MobileNet-v2  | 53            |                      |              | |||
+| Model         | Depth          | G-Flops (efficiency) | Best accuracy | Best accuracy setting | Jupyter link |
+| ------------- | ------------- |----------------|-----------------|-----------------------|--------------|          
+| Basic CNN     | 5                                |    3.07          |     0.4389          ||[Basic CNN](https://github.com/victorcaquilpan/CNN_evaluation/blob/main/code/basic_cnn.ipynb)
+| AlexNet       | 8                                   |  1.39            |               |||
+| GoogleNet     | 22                                |              |               |||
+| Resnet34      | 35                                 |    24.41        |               |||
+| Resnet151     | 152                                |              |  |||
+| MobileNet-v2  | 53                                 |              | |||
