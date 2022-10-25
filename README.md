@@ -8,8 +8,8 @@ Six different arquitectures were tested, which are described in the next table.
 
 | Model         | Depth         | Number of parameters | G-Flops (efficiency) | Best accuracy | Best accuracy setting | Jupyter link |
 | ------------- | ------------- |--------------------- |----------------|-----------------|-----------------------|--------------|          
-| Basic CNN     | 5             |                      |    3.07          |               |||
-| AlexNet       | 8             |                      |              |               |||
+| Basic CNN     | 5             |                      |    3.07          |               ||[Basic CNN](https://github.com/victorcaquilpan/CNN_evaluation/blob/main/code/CNN_Basic_CNN.ipynb)|
+| AlexNet       | 8             | 1.39                     |              |               |||
 | GoogleNet     | 22            |                      |              |               |||
 | Resnet34      | 35            |                      |              |               |||
 | Resnet151     | 152           |                      |              |  |||
