@@ -6,11 +6,11 @@ This repository contains a set of experiments using CNN arquitectures to predict
 
 Six different arquitectures were tested, which are described in the next table.
 
-| Model         | Depth         | Number of parameters | Jupyter link |
-| ------------- | ------------- |--------------------- |------------- |
-| Basic CNN     | 5             |                      |              |
-| AlexNet       | 8             |                      |              |
-| GoogleNet     | 22            |                      |              |
-| Resnet34      | 35            |                      |              |
-| Resnet151     | 152           |                      |              |
-| MobileNet-v2  | 53            |                      |              |
+| Model         | Depth         | Number of parameters |  Best accuracy | Best Efficiency | Best accuracy setting | Jupyter link |
+| ------------- | ------------- |--------------------- |------------- |               |||   
+| Basic CNN     | 5             |                      |              |               |||
+| AlexNet       | 8             |                      |              |               |||
+| GoogleNet     | 22            |                      |              |               |||
+| Resnet34      | 35            |                      |              |               |||
+| Resnet151     | 152           |                      |              |  |||
+| MobileNet-v2  | 53            |                      |              | |||
