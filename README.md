@@ -8,9 +8,9 @@ Six different arquitectures were tested, which are described in the next table.
 
 | Model         | Depth         | Number of parameters | Jupyter link |
 | ------------- | ------------- |--------------------- |------------- |
-| Basic CNN     | Content Cell  |                      |              |
-| AlexNet       | Content Cell  |                      |              |
-| GoogleNet     | Content Cell  |                      |              |
-| Resnet34      | Content Cell  |                      |              |
-| Resnet151     | Content Cell  |                      |              |
-| MobileNet-v2  | Content Cell  |                      |              |
+| Basic CNN     | 5             |                      |              |
+| AlexNet       | 8             |                      |              |
+| GoogleNet     | 22            |                      |              |
+| Resnet34      | 35            |                      |              |
+| Resnet151     | 152           |                      |              |
+| MobileNet-v2  | 53            |                      |              |
