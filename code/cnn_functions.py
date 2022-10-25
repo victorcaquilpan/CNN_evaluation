@@ -176,6 +176,7 @@ def fit_model(model,train_loader = None, val_loader = None, test_loader = None,o
           # Zero the parameter gradients
           optimizer.zero_grad()
           # Forward + backward + optimize
+          cnn_model.train()
           outputs = cnn_model(inputs)
           # Getting accuracy 
           acc = accuracy_val(outputs, labels)
