@@ -36,5 +36,5 @@ A total of six different arquitectures were tested combined with different setti
 | AlexNet       | 8                                   |  1.39            | 0.7944          |Optimizer: SGD + Lr: 0.001 + pretrained | [AlexNet](https://github.com/victorcaquilpan/CNN_evaluation/blob/main/code/alexnet.ipynb)|
 | GoogleNet     | 22                                |              |               |||
 | Resnet34      | 35                                 |    24.41        | 90.19              |Optimizer: SGD + Lr: 0.001 + pretrained|[Resnet34](https://github.com/victorcaquilpan/CNN_evaluation/blob/main/code/resnet34.ipynb) |
-| Resnet151     | 152                                |              |  |||
+| Resnet101     | 152                                |              |  |||
 | MobileNet-v2  | 53                                 |              | |||
