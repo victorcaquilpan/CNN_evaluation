@@ -7,6 +7,7 @@ This repository contains a set of experiments using CNN arquitectures to predict
 A standard setting was utilized to preprocess images and it was showed below. 
 
 ```
+# Transformation
 train_transform = transforms.Compose([
             transforms.Resize(256),
             transforms.RandomHorizontalFlip(),
