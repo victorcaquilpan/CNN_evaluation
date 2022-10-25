@@ -6,9 +6,9 @@ This repository contains a set of experiments using CNN arquitectures to predict
 
 Six different arquitectures were tested, which are described in the next table.
 
-| Model         | Depth         | Number of parameters |  Best accuracy | Best Efficiency | Best accuracy setting | Jupyter link |
+| Model         | Depth         | Number of parameters | G-Flops (efficiency) | Best accuracy | Best accuracy setting | Jupyter link |
 | ------------- | ------------- |--------------------- |----------------|-----------------|-----------------------|--------------|          
-| Basic CNN     | 5             |                      |              |               |||
+| Basic CNN     | 5             |                      |    3.07          |               |||
 | AlexNet       | 8             |                      |              |               |||
 | GoogleNet     | 22            |                      |              |               |||
 | Resnet34      | 35            |                      |              |               |||
