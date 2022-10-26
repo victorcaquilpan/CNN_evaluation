@@ -135,7 +135,7 @@ def fit_model(model,train_loader = None, val_loader = None, test_loader = None,o
       images, labels = batch 
       # Generate predictions
       outputs = model(images)
-      if type(model).__name__ == 'GoogLeNet':
+      if type(outputs).__name__ == 'GoogLeNetOutputs':
         outputs = outputs.logits
       # Getting the prediction
       _, preds = torch.topk(outputs,1)         
