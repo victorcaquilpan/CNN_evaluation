@@ -134,7 +134,9 @@ def fit_model(model,train_loader = None, val_loader = None, test_loader = None,o
   def validation_step(model,batch):
       images, labels = batch 
       # Generate predictions
-      outputs = model(images)  
+      outputs = model(images)
+      if type(model).__name__ == 'GoogLeNet':
+        outputs = outputs.logits
       # Getting the prediction
       _, preds = torch.topk(outputs,1)         
       # Calculate loss
@@ -178,6 +180,10 @@ def fit_model(model,train_loader = None, val_loader = None, test_loader = None,o
           # Forward + backward + optimize
           cnn_model.train()
           outputs = cnn_model(inputs)
+          # In case of GoogleNet, we have three outputs. We need to select only one
+          class_model = type(outputs).__name__
+          if class_model == 'GoogLeNetOutputs':
+            outputs = outputs.logits
           # Getting accuracy 
           acc = accuracy_val(outputs, labels)
           running_accuracy += acc
