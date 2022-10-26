@@ -30,11 +30,11 @@ number_epochs = 20
 
 A total of six different arquitectures were tested combined with different setting of learning rates (0.1 and 0.001) and optimizers (SGD and Adam). Moreover, it was tested cases with and without transfer learning. The best cases for each arquitecture are described in the next table.
 
-| Model         | Depth          | G-Flops (efficiency) | Best accuracy | Best accuracy setting | Jupyter link |
+| Model         | Depth          | G-Flops (efficiency) | Best accuracy (%)| Best accuracy setting | Jupyter link |
 | ------------- | ------------- |----------------|-----------------|-----------------------|--------------|          
-| Basic CNN     | 5                                |    3.07          |     0.4389          |Optimizer: SGD + Lr: 0.001|[Basic CNN](https://github.com/victorcaquilpan/CNN_evaluation/blob/main/code/basic_cnn.ipynb)
-| AlexNet       | 8                                   |  1.39            | 0.7519          |Optimizer: SGD + Lr: 0.001 + pretrained | [AlexNet](https://github.com/victorcaquilpan/CNN_evaluation/blob/main/code/alexnet.ipynb)|
+| Basic CNN     | 5                                |    3.07          |     43.89          |Optimizer: SGD + Lr: 0.001|[Basic CNN](https://github.com/victorcaquilpan/CNN_evaluation/blob/main/code/basic_cnn.ipynb)
+| AlexNet       | 8                                   |  1.39            | 75.19          |Optimizer: SGD + Lr: 0.001 + pretrained | [AlexNet](https://github.com/victorcaquilpan/CNN_evaluation/blob/main/code/alexnet.ipynb)|
 | GoogleNet     | 22                                |2.97              |               |||
-| Resnet34      | 35                                 |    24.41        | 0.9370              |Optimizer: SGD + Lr: 0.001 + pretrained|[Resnet34](https://github.com/victorcaquilpan/CNN_evaluation/blob/main/code/resnet34.ipynb) |
+| Resnet34      | 35                                 |    24.41        | 93.70              |Optimizer: SGD + Lr: 0.001 + pretrained|[Resnet34](https://github.com/victorcaquilpan/CNN_evaluation/blob/main/code/resnet34.ipynb) |
 | Resnet101     | 152                                | 15.61              |  |||
-| MobileNet-v2  | 53                                 | 0.6             |0.8778 |Optimizer: SGD + Lr: 0.001 + pretrained |[MobileNet-v2](https://github.com/victorcaquilpan/CNN_evaluation/blob/main/code/mobilenetv2.ipynb)|
+| MobileNet-v2  | 53                                 | 0.6             |87.78 |Optimizer: SGD + Lr: 0.001 + pretrained |[MobileNet-v2](https://github.com/victorcaquilpan/CNN_evaluation/blob/main/code/mobilenetv2.ipynb)|
