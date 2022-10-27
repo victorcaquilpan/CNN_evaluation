@@ -28,7 +28,7 @@ batch_size = 12
 number_epochs = 20
 ```
 
-A total of six different arquitectures were tested combined with different setting of learning rates (0.1 and 0.001) and optimizers (SGD and Adam). Moreover, it was tested cases with and without transfer learning. The best cases for each arquitecture are described in the next table.
+Six different arquitectures were tested combined with different setting of learning rates (0.1 and 0.001) and optimizers (SGD and Adam) turning out in 44 trials. Moreover, it was tested cases with and without transfer learning. The best cases for each arquitecture are described in the next table.
 
 | Model         | Depth          | G-Flops (efficiency) | Best accuracy (%)| Best accuracy setting | Jupyter link |
 | ------------- | ------------- |----------------|-----------------|-----------------------|--------------|          
